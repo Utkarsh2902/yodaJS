@@ -1,50 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Yoda translation</title>
-    <style>
-        textarea {
-            width: 60%;
-            display: block;
-            margin: 1.5rem 1rem;
-            height: 17vh;
-            padding: 1rem 1rem;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        #my-output {
-            border: 1px solid black;
-            width: 60%;
-            display: block;
-            margin: 1.5rem 1rem;
-            height: 17vh;
-            padding: 1rem 1rem;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        #my-Browser {
-            margin: 1rem;
-        }
-
-        body h1 {
-            font-size: 3rem;
-            margin: 1rem;
-            text-align: center;
-        }
-    </style>
 </head>
-
 <body>
     <h1>Yodish translation</h1>
     <textarea id="my-txt" placeholder="write text which will translate in Yoda's language"></textarea>
     <button id="my-Browser">translate</button>
-    <div style="font: bold;font-size: large;margin: 1rem;">Output after translation</div>
+    <div class="outhead">Output after translation</div>
     <div id="my-output"></div>
     <script src="app.js" type="text/javascript"></script>
 </body>
