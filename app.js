@@ -1,7 +1,7 @@
 var myBrowser = document.querySelector("#my-Browser");
 var mytxt = document.querySelector("#my-txt");
 var myoutput = document.querySelector("#my-output");
-var serurl = "	https://api.funtranslations.com/translate/minion.json";
+var serurl = "https://api.funtranslations.com/translate/yoda.json";
 
 
 function getURL(text) {
